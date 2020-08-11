@@ -19,10 +19,10 @@ var
 	RUNPATH_SEARCH_PATHS_XCODE = '"' + RUNPATH_SEARCH_PATHS + '"',
 	ENABLE_BITCODE = 'NO',
 	ENABLE_BITCODE_XCODE = '"' + ENABLE_BITCODE + '"',
-	UNIFIED_BRIDGING_HEADER = 'Plugins/Unified-Bridging-Header.h',
+	UNIFIED_BRIDGING_HEADER = 'Bridging-Header.h',
 	IOSRTC_BRIDGING_HEADER = "cordova-plugin-iosrtc-Bridging-Header.h",
 	BRIDGING_HEADER_END = '/Plugins/cordova-plugin-iosrtc/' + IOSRTC_BRIDGING_HEADER,
-	TEST_UNIFIED_BRIDGING_HEADER = false; // Set to true to test handling of existing swift bridging header
+	TEST_UNIFIED_BRIDGING_HEADER = true; // Set to true to test handling of existing swift bridging header
 
 // Helpers
 
